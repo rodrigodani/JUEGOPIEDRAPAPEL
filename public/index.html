@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CHAT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div id="chat-container">
+        <H2>Cori Galvez Rodrigo daniel LAB-273 B - Laboratorio de inf-273</H2>
+    </div>  
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="output"> </div>
+        </div>
+        <input type="text" id="username" placeholder="Username">
+        <select id="escoger" form="carform">
+            <option value="piedra">piedra</option>
+            <option value="papel">papel</option>
+            <option value="tijera">tijera</option>    
+        </select>
+        
+        <button id="send">send</button>
+    </div>
+   
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/socket-custom.js"></script>
+</body>
+
+</html>
